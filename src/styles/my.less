@@ -1,0 +1,52 @@
+.myInfo {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  .pull_down {
+    width: 100%;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0;
+    border-bottom: 1px solid #ccc;
+    display: none;
+    z-index: 999;
+  }
+  .down_font {
+    text-align: center;
+    line-height: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .parent {
+    transform: translateY(0);
+    .header{
+      height: 5rem;
+      display: flex;
+      background-color: #108ee9;
+      padding: 1rem;
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: red;
+      }
+      p {
+        line-height: 3rem;
+        padding-left: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .set {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+      }
+    }
+  }
+}
